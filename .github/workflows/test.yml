@@ -24,7 +24,7 @@ jobs:
       - name: Checkout source code.
         uses: actions/checkout@master
         with:
-          ref: sst-deploy
+          ref: master
 
       # Runs a single command using the runners shell
       - name: Install Dependencies
